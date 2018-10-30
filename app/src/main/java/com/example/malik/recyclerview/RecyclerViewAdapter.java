@@ -64,10 +64,6 @@ public class RecyclerViewAdapter extends  RecyclerView.Adapter<RecyclerViewAdapt
         });
     }
 
-    void deleteItem(int index){
-
-    }
-
     @Override
     public int getItemCount() {
         return mImageNames.size();
